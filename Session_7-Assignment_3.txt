@@ -1,0 +1,12 @@
+probability of selecting wrong choice from four choices for a single question , their by question become wrong is 3/4 which is 
+p , so q which 1-p becomes 1/4 .
+
+number of trails(number of questions) n = 20
+
+r = 5  (exact number of errors expected)
+
+p = 3/4 (probability of getting chossing error option from four option for a single question)
+
+q = 1/4
+
+p(x) = (n!/(x!(n-x)!)) p pow x (1-p) pow (n-x)  =  0.0000034265
